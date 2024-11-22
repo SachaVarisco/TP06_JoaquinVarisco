@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8cd94b6c58a0a6743849f4409a5a0bfc, type: 3}
+  m_Name: PlayerData
+  m_EditorClassIdentifier: 
+  maxLife: 4
+  actualLife: 4
+  impactVelocity: {x: -15, y: 25}
+  walkSpeed: 8
+  runSpeed: 12
+  jumpKey: 119
+  jumpForce: 900
+  gravity: 4
+  feetRadius: 0.2
+  ground:
+    serializedVersion: 2
+    m_Bits: 256
+  inGround: 1
+  jumpCount: 1
+  maxJump: 1
+  shotKey: 107
+  shotCadency: 0.5
+  maxAmmo: 5
+  actualAmmo: 5
+  ammoDamage: 1
+  coinScore: 30
+  coinHighScore: 0
+  invinsibleMusic: {fileID: 8300000, guid: e017e61353a97bc4ea95da3e61d7af76, type: 3}
+  levelMusic: {fileID: 8300000, guid: b7f5fdadc52bfd54e99ffee3322011c7, type: 3}
+  jumpClip: {fileID: 8300000, guid: aa6638afd25ef0044b55228965f0b9cb, type: 3}
+  landClip: {fileID: 8300000, guid: 4c48156057fa72846ac43baad7536ec8, type: 3}
+  shootClip: {fileID: 8300000, guid: c0c0cafde68ecee4f8bef5eaf9242c8e, type: 3}
+  damagedClip: {fileID: 8300000, guid: 3512fe46ba7c0704f85e64299caec665, type: 3}
+  deathClip: {fileID: 8300000, guid: 3512fe46ba7c0704f85e64299caec665, type: 3}
+  healthClip: {fileID: 8300000, guid: 1553ceeb7331b5a4e968cd39d2d2f068, type: 3}
+  coinClip: {fileID: 8300000, guid: ce9bebf39166098409dc08d5ebd76709, type: 3}
+  tripleJumpClip: {fileID: 8300000, guid: 39613cee276879046bb1c4244a476637, type: 3}
+  invinsibleClip: {fileID: 8300000, guid: ffd07908432e2b645a067785817cf86b, type: 3}
+  moreDamageClip: {fileID: 8300000, guid: ab905bf412f49f04d839cf42e9b69f13, type: 3}
+  invincible: 0
